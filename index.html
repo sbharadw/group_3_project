@@ -13,11 +13,13 @@
 </head>
 
 <body>
+    <!--Create div and class called "content" for the main image, search tab and description-->
+    <!--Create div inside for main image, will need id and image tag.-->
     <!--Create div and class called "header" for the nav bar below.-->
     <div>
         <style>
             body {
-                background-image: url('Images/kitchen-731351_1920.jpg');
+                background-image: url('Images/local_marquee.jpg');
                 background-size: cover;
             }
         </style>
@@ -28,11 +30,11 @@
         <!--Will need font awesome to use icon to represent the menu.-->
         <header>
             <div class="topnav">
-                <a class="active" href="./index.html">Home</a>
-                <a href="./featured.html" id="featured">Featured</a>
-                <a href="./blog.html" id="blog">Blog</a>
-                <a href="./reviews.html" id="reviews">Reviews</a>
                 <a href="./aboutus.html" id="aboutus">About Us</a>
+                <a href="./reviews.html" id="reviews">Reviews</a>
+                <a href="./blog.html" id="blog">Blog</a>
+                <a href="./featured.html" id="featured">Featured</a>
+                <a class="active" href="./index.html">Home</a>
             </div>
             <div class="header">
                 <h1>Home Grown</h1>
@@ -40,26 +42,24 @@
         </header>
 
 
-
+        <!--ARTICLE-->
+        <!--Create second div for the search bar, will need id as well.-->
+        <!--Create third div for description/text, will need p tag.-->
+        <!--ARTICLE-->
         <div class="search">
             <div>
                 <input type="text" id="search"> Search Local Businesses
                 <i class="fas fa-search-location"></i>
-           
+
                 <input type="number" id="zipcode"> Enter Your Zip Code
                 <i class="fas fa-search-location"></i>
             </div>
             <div id="description">
-                <h3>Find & support local businesses within your area:</h3>
+                <h3>Find & support local businesses within your area!</h3>
             </div>
         </div>
 
-        <!--ARTICLE-->
-        <!--Create div and class called "content" for the main image, search tab and description-->
-        <!--Create div inside for main image, will need id and image tag.-->
-        <!--Create second div for the search bar, will need id as well.-->
-        <!--Create third div for description/text, will need p tag.-->
-        <!--ARTICLE-->
+
 
         <!--Link Javascript file-->
         <script src="./script.js"></script>
