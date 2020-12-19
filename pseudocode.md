@@ -20,17 +20,20 @@ For the hotspot tab we will use an event listner on click and then that will dis
 
 
 ## Blog
+```
 WHATEVER CONTENT WE WANT TO POST RANDOM CONTENT GIVING THEM CREDIT
 INTERNAL WE MAKE THE POST IT IS LIKE AN UPDATED NEWS FEED. 
 We will have an event listner for when user clicks on menu tab Blog
-
+```
 
 
 
 
 ## REVIEWS
+```
 Are external reviews from users about there experiances 
 We will have an event listner for when user clicks on menu tab Blog
+```
 
 
 
@@ -41,8 +44,9 @@ We will have an event listner for when user clicks on menu tab Blog
 
 
 ## ABOUT US 
-
+```
 INFORMATION ABOUT US 
 We will have an event listner for when user clicks on menu tab About us
+```
 
 
