@@ -12,11 +12,17 @@ h3{
     font-family:'Playfair Display',sans-serif;
     text-align: center;
     color:rgba(246, 224, 196,0.7);
-    outline:3px solid rgba(246, 224, 196,0.7);
+   /* outline:3px solid rgba(246, 224, 196,0.7);*/
     padding: 20px;
     width: 160px;
     height: 80px;
-    border-radius: 50%
+}
+#description{
+    position: fixed;
+    right:5%;
+    bottom: 0;
+    border: 3px solid rgba(246, 224, 196,0.7);
+    border-radius: 50%;
 }
 
 #featured, #blog, #aboutus, #reviews, .topnav a{
@@ -49,8 +55,4 @@ h3{
       align-items: center;
       text-align: right;
   }
-  #menu{
-      background-color: (246, 224, 196);
-      color:(246, 224, 196);
-      size: 2rem;
-  }
+  
