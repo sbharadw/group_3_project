@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/0aa2753bb1.js" crossorigin="anonymous"></script>
+    <!--Link CSS File-->
+    <!--Link Font Awesome URL-->
+    <!--H1 Tag to use for the name of the website/project is "Home Grown"-->
+</head>
+
+<body>
+    <!--Create div and class called "content" for the main image, search tab and description-->
+    <!--Create div inside for main image, will need id and image tag.-->
+    <!--Create div and class called "header" for the nav bar below.-->
+    <div>
+        <style>
+            body {
+                background-image: url('Images/local_marquee.jpg');
+                background-size: cover;
+            }
+        </style>
+
+        <!--Create div and class called "navbar" for the four tabs below.-->
+        <!--Inside the navbar, create unordered list for the Hot Spots, Blog, About Us and Contact Us tabs-->
+        <!--Will need a class for the nav bar, 4 classes for the tabs and the menu -->
+        <!--Will need font awesome to use icon to represent the menu.-->
+        <header>
+            <div class="topnav">
+                <a href="./aboutus.html" id="aboutus">About Us</a>
+                <a href="./reviews.html" id="reviews">Reviews</a>
+                <a href="./blog.html" id="blog">Blog</a>
+                <a href="./featured.html" id="featured">Featured</a>
+                <a class="active" href="./index.html">Home</a>
+            </div>
+            <div class="header">
+                <h1>Home Grown</h1>
+            </div>
+        </header>
+
+
+        <!--ARTICLE-->
+        <!--Create second div for the search bar, will need id as well.-->
+        <!--Create third div for description/text, will need p tag.-->
+        <!--ARTICLE-->
+        <div class="search">
+            <div>
+                <input type="text" id="search"> Search Local Businesses
+                <i class="fas fa-search-location"></i>
+
+                <input type="number" id="zipcode"> Enter Your Zip Code
+                <i class="fas fa-search-location"></i>
+            </div>
+            <div id="description">
+                <h3>Find & support local businesses within your area!</h3>
+            </div>
+        </div>
+
+
+
+        <!--Link Javascript file-->
+        <script src="./script.js"></script>
+</body>
+
+</html>
