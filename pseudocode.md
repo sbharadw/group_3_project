@@ -15,7 +15,7 @@ JAVASCRIPT
 ```
 Are anything worth talking about? // Just businesses in general. 
 We will use time interval to be refresh a set of articles daily getting updates from Api. 
-For the hotspot tab we will use an event listner on click and then that will display the page. 
+For the hotspot tab we will use an event listner on click and then that will display the page. yeah!
 ```
 
 
