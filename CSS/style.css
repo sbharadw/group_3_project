@@ -24,7 +24,7 @@ h3 {
 #description {
     position: fixed;
     right: 27%;
-    bottom: 11%;
+    bottom: 13%;
     /*border: 3px solid rgba(246, 224, 196,0.7);*/
     /*border-radius: 50%;*/
 }
@@ -32,7 +32,7 @@ h3 {
 .search {
     position: fixed;
     right: 26%;
-    bottom: 10%;
+    bottom: 12%;
     font-size: 25px;
     align-items: center;
     color: rgb(255, 234, 195);
