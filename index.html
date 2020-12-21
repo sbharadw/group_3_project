@@ -46,14 +46,16 @@
         <!--Create second div for the search bar, will need id as well.-->
         <!--Create third div for description/text, will need p tag.-->
         <!--ARTICLE-->
-        <div class="search">
-            <div>
-                <input type="text" id="search"> Search Local Businesses
+        <div  class="search">
+            <div id="clear-input">
+                <input type="text" id="user-search"> What are you looking for?
                 <i class="fas fa-search-location"></i>
 
-                <input type="number" id="zipcode"> Enter Your Zip Code
+                <input type="text" id="user-area"> Enter City/Zipcode 
                 <i class="fas fa-search-location"></i>
+
             </div>
+            <button id="user-submit">Submit</button>
             <div id="description">
                 <h3>Find & support local businesses within your area!</h3>
             </div>
@@ -62,7 +64,11 @@
 
 
         <!--Link Javascript file-->
-        <script src="./script.js"></script>
+        
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
