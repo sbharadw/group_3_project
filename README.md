@@ -13,7 +13,7 @@
 
 https://www.canva.com/design/DAEQcjbsJfw/xIYaauBCHPYT7aZ6gaNfXA/view?utm_content=DAEQcjbsJfw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
 
-![mockup image](mockup.jpg);
+![mockup image](Images/mockup.png);
 
 
 <h1>Team Members and Responsibilities</h1>  - 
