@@ -14,25 +14,25 @@ h3 {
     text-align: center;
     color: rgba(246, 224, 196);
     outline: 3px solid rgba(246, 224, 196, 0.7);
-    background-color: rgba(8, 4, 0, 0.5);
-    width: fit-content;
-    padding: 10px 10px;
-    font-size: 2.5rem;
+    background-color: rgba(12, 7, 1, 0.5);
+    width: 100%;
+    padding: 8px 0px;
+    font-size: 3.0rem;
     font-weight: 500;
+    margin: auto;
 }
 
 #description {
-    position: fixed;
-    right: 27%;
-    bottom: 13%;
+    margin-bottom: 10px;
+    /*position: fixed;*/
+    /*right: 27%;
+    bottom: 13%;*/
+    /*margin: auto;*/
     /*border: 3px solid rgba(246, 224, 196,0.7);*/
     /*border-radius: 50%;*/
 }
 
 .search {
-    position: fixed;
-    right: 26%;
-    bottom: 6%;
     font-size: 25px;
     align-items: center;
     color: rgb(255, 234, 195);
@@ -47,7 +47,7 @@ h3 {
     font-size: 1rem;
     color: rgb(44, 29, 6);
     float: right;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     text-align: top;
     padding: 5px 10px;
     margin: auto;
@@ -70,4 +70,15 @@ h3 {
 #search {
     align-items: center;
     text-align: center;
+}
+
+.index-container {
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+}
+
+.sub-container {
+    width: 60%;
+    margin: auto;
 }

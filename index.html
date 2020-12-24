@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Grown</title>
-    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">-->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/skeleton.css">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/0aa2753bb1.js" crossorigin="anonymous"></script>
     <link rel="icon" href="Images/hgicon.ico">
@@ -38,7 +39,7 @@
                 <a href="./aboutus.html" id="aboutus">About Us</a>
                 <a href="./reviews.html" id="reviews">Reviews</a>
                 <a href="./blog.html" id="blog">Blog</a>
-                <a href="./Featured.html" id="featured">Featured</a>
+                <a href="./featured.html" id="featured">Featured</a>
                 <a class="active" href="./index.html">Home</a>
             </div>
             <div class="header">
@@ -51,7 +52,31 @@
         <!--Create second div for the search bar, will need id as well.-->
         <!--Create third div for description/text, will need p tag.-->
         <!--ARTICLE-->
-        <div  class="search">
+        <div class="container index-container">
+            <div class="sub-container">
+            <div id="description">
+                <h3>Find & support local businesses within your area!</h3>
+            </div>
+            <div>
+                <form>
+                    <div class="row search">
+                      <div class="six columns">
+                        <label for="exampleEmailInput">What are you looking for?<i class="fas fa-search-location"></i></label>
+                        <input class="u-full-width" type="text" placeholder='Example: "Restaurant"'' id="exampleEmailInput">
+                      </div>
+                      <div class="six columns">
+                        <label for="exampleEmailInput">Enter City/Zipcode <i class="fas fa-search-location"></i></label>
+                        <input class="u-full-width" type="text" placeholder='Example: "Alexandria" / "22201"'' id="exampleEmailInput">
+                      </div>
+                    </div>
+                    <input class="button-primary" type="submit" value="Submit">
+                  </form>
+            </div>
+            </div>
+        </div>
+
+
+        <!--<div class="search">
             <div id="clear-input">
                 <input type="text" id="user-search"> What are you looking for?
                 <i class="fas fa-search-location"></i>
@@ -64,8 +89,7 @@
             <div id="description">
                 <h3>Find & support local businesses within your area!</h3>
             </div>
-        </div>
-
+        </div>-->
 
 
         <!--Link Javascript file-->
