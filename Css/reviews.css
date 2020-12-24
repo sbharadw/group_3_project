@@ -1,6 +1,6 @@
 h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 4.0rem;
+  font-size: 4.5rem;
   color: rgb(27, 15, 7);
   background-color: rgba(246, 224, 196, 0.8);
   text-align: center;
@@ -18,7 +18,7 @@ h1 {
   font-size: 1rem;
   color: rgb(44, 29, 6);
   float: right;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   text-align: top;
   padding: 5px 10px;
   margin: auto;
