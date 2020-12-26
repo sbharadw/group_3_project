@@ -60,20 +60,31 @@
             <div>
                 <form>
                     <div class="row search">
-                      <div class="six columns">
+                      <div id="clear-input" class="six columns">
                         <label for="exampleEmailInput">What are you looking for?<i class="fas fa-search-location"></i></label>
-                        <input class="u-full-width" type="text" placeholder='Example: "Restaurant"'' id="exampleEmailInput">
+                        <input class="u-full-width" type="text" placeholder='Example: "Restaurant"'' id="user-search">
                       </div>
                       <div class="six columns">
                         <label for="exampleEmailInput">Enter City/Zipcode <i class="fas fa-search-location"></i></label>
-                        <input class="u-full-width" type="text" placeholder='Example: "Alexandria" / "22201"'' id="exampleEmailInput">
+                        <input class="u-full-width" type="text" placeholder='Example: "Alexandria" / "22201"'' id="user-area">
                       </div>
                     </div>
-                    <input class="button-primary" type="submit" value="Submit">
+                    <div class="row">
+                    
+                    <input id="user-submit" class="six columns button-primary" type="submit" value="Submit">
+                
+                    </div>
                   </form>
             </div>
             </div>
         </div>
+
+
+
+        
+<!-- Do not touch this DIV please!!-->
+
+        <div id="map" style="width: 500px; height: 400px;"></div>
 
 
         <!--<div class="search">
@@ -92,12 +103,13 @@
         </div>-->
 
 
-        <!--Link Javascript file-->
+        <!--Link Javascript file JQuery Library-->
         
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?&key=AIzaSyBcdEQ1k7qY05LUQ9BK5byzXlguE7S0d2U&libraries=&v=weekly" defer></script>
 </body>
 
 </html>
