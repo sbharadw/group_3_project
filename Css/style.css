@@ -62,6 +62,7 @@ h3 {
     margin: 0%;
 }
 
+
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: rgba(246, 224, 196, 0.7);
@@ -85,9 +86,42 @@ h3 {
     margin: auto;
 }
 
+.image-pro {
+	position: absolute;
+	top:0;
+	width:100%;
+	height: 100%;
+}
+
+
 .search-bar {
     display:flex;
     text-align:center;
     width:80%;
     margin:auto;
 }
+
+.results-card-width {
+
+width: 50 rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
