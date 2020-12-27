@@ -5,11 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Grown</title>
+
     <link rel="stylesheet" href="./css/normalize.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/skeleton.css">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/0aa2753bb1.js" crossorigin="anonymous"></script>
     <link rel="icon" href="Images/hgicon.ico">
+
+
     <!--Link CSS File-->
     <!--Link Font Awesome URL-->
     <!--H1 Tag to use for the name of the website/project is "Home Grown"-->
@@ -19,8 +26,8 @@
     <!--Create div and class called "content" for the main image, search tab and description-->
     <!--Create div inside for main image, will need id and image tag.-->
     <!--Create div and class called "header" for the nav bar below.-->
-    <div>
-        <style>
+    <style>
+        /*
             body {
                 background-image: url('Images/local_marquee.jpg');
                 background-size: cover;
@@ -28,77 +35,76 @@
                 background-position: right top;
                 background-attachment: fixed;
             }
-        </style>
 
-        <!--Create div and class called "navbar" for the four tabs below.-->
-        <!--Inside the navbar, create unordered list for the Hot Spots, Blog, About Us and Contact Us tabs-->
-        <!--Will need a class for the nav bar, 4 classes for the tabs and the menu -->
-        <!--Will need font awesome to use icon to represent the menu.-->
-        <header>
-            <div class="topnav">
-                <a href="./aboutus.html" id="aboutus">About Us</a>
-                <a href="./reviews.html" id="reviews">Reviews</a>
-                <a href="./blog.html" id="blog">Blog</a>
-                <a href="./featured.html" id="featured">Featured</a>
-                <a class="active" href="./index.html">Home</a>
-            </div>
-            <div class="header">
-                <h1>Home Grown</h1>
-                <h3>Find & support local businesses within your area!</h3>
-            </div>
-            <br>
-           
-            <div class="row search ">
-                <form class="search-bar">
-                    <div id="clear-input" class="four columns">
-                        <input class="u-full-width" type="text" placeholder='What are you looking for?'
-                            id="user-search"><i class="fas fa-search-location"></i>
-                    </div>
-                    <div class="four columns">
-                        <input class="u-full-width" type="text" placeholder='Enter City/Zipcode' id="user-area"><i
-                            class="fas fa-search-location"></i>
-                    </div>
-                    <div class="four columns">
-                        <input id="user-submit" class="six columns button-primary" type="submit" value="Submit">
-                    </div>
-                </form>
-            </div>
-    </div>
+        */
+    </style>
+
+    <!--Create div and class called "navbar" for the four tabs below.-->
+    <!--Inside the navbar, create unordered list for the Hot Spots, Blog, About Us and Contact Us tabs-->
+    <!--Will need a class for the nav bar, 4 classes for the tabs and the menu -->
+    <!--Will need font awesome to use icon to represent the menu.-->
+    <header class="sticky-top">
+        <div class="topnav">
+            <a href="./aboutus.html" id="aboutus">About Us</a>
+            <a href="./reviews.html" id="reviews">Reviews</a>
+            <a href="./blog.html" id="blog">Blog</a>
+            <a href="./featured.html" id="featured">Featured</a>
+            <a class="active" href="./index.html">Home</a>
+        </div>
+        <div class="header">
+            <h1>Home Grown</h1>
+            <h3>Find & support local businesses within your area!</h3>
+        </div>
+        <br>
+
+        <div class="row search ">
+            <form class="search-bar">
+                <div id="clear-input" class="four columns">
+                    <input class="u-full-width" type="text" placeholder='What are you looking for?' id="user-search">
+                </div>
+                <div class="four columns">
+                    <input class="u-full-width" type="text" placeholder='Enter City/Zipcode' id="user-area">
+                </div>
+                <div class="four columns">
+                    <input id="user-submit" class="six columns button-primary" type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+        <hr>
     </header>
 
+    <!--Search Results along with google maps UI-->
 
-    <!--ARTICLE-->
-    <!--Create second div for the search bar, will need id as well.-->
-    <!--Create third div for description/text, will need p tag.-->
-    <!--ARTICLE-->
-    <div class="container index-container">
-        <div class="sub-container">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="seven columns">
+                <div class="jumbotron jumbotron-fluid p-3 mb-2 bg-secondary text-white">
+                    <div>
+                        <div id="section" class="row mx-auto scroll">
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="five columns">
+
+                <div id="map" style="width: 750px; height: 700px;"></div>
+
+            </div>
+
 
         </div>
     </div>
 
 
 
-
     <!-- Do not touch this DIV please!!-->
 
-    <div id="map" style="width: 500px; height: 400px;"></div>
 
 
-    <!--<div class="search">
-            <div id="clear-input">
-                <input type="text" id="user-search"> What are you looking for?
-                <i class="fas fa-search-location"></i>
-
-                <input type="text" id="user-area"> Enter City/Zipcode 
-                <i class="fas fa-search-location"></i>
-
-            </div>
-            <button id="user-submit">Submit</button>
-            <div id="description">
-                <h3>Find & support local businesses within your area!</h3>
-            </div>
-        </div>-->
 
 
     <!--Link Javascript file JQuery Library-->
@@ -106,10 +112,14 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+    </script>
     <script
-        src="https://maps.googleapis.com/maps/api/js?&key=AIzaSyBcdEQ1k7qY05LUQ9BK5byzXlguE7S0d2U&libraries=&v=weekly"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcdEQ1k7qY05LUQ9BK5byzXlguE7S0d2U&libraries=&v=weekly"
         defer></script>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
