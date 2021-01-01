@@ -158,6 +158,31 @@ $("#user-submit").on("click", function (event) {
 
 });
 
+// YAZE CODING HERE
+//Grabbing Div Element with Id of featuredLocal. 
+
+let featuredDiv = $('#featuredLocal');
+
+//Might add parameters of my own to reduce lengthy apiUrl. 
+
+const apiFetch = async () =>{
+    let apiUrl = 'https://api.foursquare.com/v2/venues/&client_id=3SWHQH2LO3XWS4UHXNJOUA52F5WPBLKBOVI5M2F33PXBHO4O&client_secret=I03NGIT2WZHSR2YOYJ2ETUXDG3TFNSCFAGF2BOFAVTULQDHK'
+    let response = await fetch(apiUrl);
+    let arr = await response.json(response)
+    
+    await renderData(arr);
+}
+
+// Await allows function to run asynchronous. Passing arr as a parameter that contains parsed JSON. 
+// await function renderData(arr){
+
+
+
+// }
+
+
+
+
 
 //****************************************************************************************************************************************//
 
