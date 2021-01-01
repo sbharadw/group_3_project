@@ -33,6 +33,6 @@ h1 {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: rgba(246, 224, 196, 0.7);
+  background-color: rgba(5, 136, 44, 0.8);
   color: rgba(0, 0, 0, 0.7);
 }

@@ -1,25 +1,25 @@
 h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 4.5rem;
-    color: rgb(27, 15, 7);
-    background-color: rgba(246, 224, 196, 0.8);
+    font-family: 'Fredericka the Great';
+    font-size: 9.5rem;
+    color: rgb(243, 240, 237);
+    background-color: rgba(5, 136, 44, 0.8);
     text-align: center;
     width: 100%;
     margin-top: auto;
-    font-weight: 550;
+    font-weight: 450;
     margin-bottom: 0.09%;
 }
 
 h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Alata', sans-serif;
     text-align: center;
     color: rgb(27, 15, 7);
-    outline: 3px solid rgba(246, 224, 196, 0.7);
+    outline: 3px solid rgba(246, 224, 196, 0.8);
     background-color: rgba(246, 224, 196, 0.8);
     width: 100%;
     padding: 0%;
-    font-size: 2.5rem;
-    font-weight: 500;
+    font-size: 3.5rem;
+    font-weight: 250;
     margin: 0%;
 }
 
@@ -45,7 +45,7 @@ h3 {
 #aboutus,
 #reviews,
 .topnav a {
-    font-family: 'Abril Fatface';
+    font-family: 'Alata';
     font-size: 1rem;
     color: rgb(44, 29, 6);
     float: right;
@@ -62,10 +62,9 @@ h3 {
     margin: 0%;
 }
 
-
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: rgba(246, 224, 196, 0.7);
+    background-color: rgba(5, 136, 44, 0.8);
     color: rgba(0, 0, 0, 0.7);
 }
 

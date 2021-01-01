@@ -1,12 +1,13 @@
 h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 4.5rem;
-  color: rgb(27, 15, 7);
-  background-color: rgba(246, 224, 196, 0.8);
+  font-family: 'Fredericka the Great';
+  font-size: 9.5rem;
+  color: rgb(243, 240, 237);
+  background-color: rgba(5, 136, 44, 0.8);
   text-align: center;
   width: 100%;
   margin-top: auto;
-  font-weight: 550;
+  font-weight: 450;
+  margin-bottom: 0.09%;
 }
 
 #featured,
@@ -26,7 +27,7 @@ h1 {
 
 /* Add a beige background color to the top navigation */
 .topnav {
-  background-color: rgba(246, 224, 196, 0.8);
+  background-color: rgba(5, 136, 44, 0.8);
   overflow: hidden;
   margin: 0%;
 }
