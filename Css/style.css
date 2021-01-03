@@ -49,7 +49,7 @@ h3 {
     font-family: 'Alata';
     font-size: 1rem;
     color: rgb(44, 29, 6);
-    float: right;
+    float: left;
     font-size: 2.5rem;
     text-align: top;
     padding: 5px 10px;
@@ -95,10 +95,16 @@ h3 {
 
 
 .search-bar {
-    display:flex;
     text-align:center;
-    width:80%;
+    width:50%;
     margin:auto;
+    font-family: 'Alata';
+    font-size: 1rem;
+    color: rgb(44, 29, 6);
+    float: right;
+    font-size: 2.5rem;
+    text-align: top;
+    padding: 5px 5px;
 }
 
 .results-card-width {
