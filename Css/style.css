@@ -108,11 +108,12 @@ width: 50 rem;
 .col{
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
+    margin-top: 2%;
     text-align: center;
     width: 900px;
     display: flex;
     align-items: center;
+    background-color:rgba(246, 224, 196, 0.9);
   }
 
   .card{
@@ -122,10 +123,12 @@ width: 50 rem;
   .card-title{
       font-family: 'Gilda Display';
       margin-bottom: 1%;
+      margin-top: 0%;
+      text-decoration: none;
   }
 
-  h5, 
-  .footer {
+  h6, 
+  .footer{
     font-family: 'Gilda Display';
     text-align: center;
     color: rgb(27, 15, 7);
@@ -141,21 +144,22 @@ width: 50 rem;
 }
 
 .card-text{
-    align-items: right;
-    text-align: right;
+    text-align: left;
+    text-decoration: none;
 }
 
 .card-img-top{
     display: block;
-    margin-top: 2%;
-    height: 200px;
+    height: 280 px;
+    width:400px;
 }
 
 .card-body{
     align-items: right;
-    text-align: right;
+    text-align: left;
     position: relative;
-
+    padding: 3%;
+    text-decoration: none;
 }
 
 
