@@ -15,6 +15,11 @@ https://www.canva.com/design/DAEQcjbsJfw/xIYaauBCHPYT7aZ6gaNfXA/view?utm_content
 
 ![mockup image](Images/mockup.png);
 
+Acknowledgements:
+
+1) Eater - content supplied from their website for the blog page
+2) 
+
 
 <h1>Team Members and Responsibilities</h1>  - 
 
