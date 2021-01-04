@@ -159,6 +159,71 @@ $("#user-submit").on("click", function (event) {
 });
 
 
+
+const cardContainer = document.getElementById('cardContainer');
+
+const apiFetch = async() => {
+const clientId=`&client_id=1HDXUDQB5L2UQQ1ZRT0KDV23AEEVVP4LI1WAP5DNBORPZ2QQ`
+const clientSecret = `&client_secret=BOGF0MSBJTTROW4KC0CHB1G43JRKP4X0ZZ0MC0J1MUKHXZF0`;
+const v = `&v=20190425`;
+const radius = `&radius=10000`;
+const limit = `&limit=6`;
+const offset = `&offset=0`;
+const queryOne = `&query=resturants`;
+const queryTwo = `&query=food`
+const near = `&near=Washington,Dc`;
+
+let url = `https://api.foursquare.com/v2/venues/explore/?${clientId}${clientSecret}${v}${radius}${limit}${offset}${queryOne}${queryTwo}${near}`;
+let response = await fetch(`${url}`);
+let data = await response.json(response);
+
+
+ await renderData(data);
+
+}
+
+apiFetch();
+
+async function renderData(data){
+
+ for(let i =0; i< 6; i++){
+  const atag = $('<a>');
+  $(atag).attr('href', 'https://dc.eater.com/maps/best-soul-food-retaurants-d-c');
+  $(cardContainer).append(atag);
+  
+  // DO NOT DELETE THIS BELOW I AM WORKING ON CREATING THE ELEMENTS DYNAMICALLY AND NEED A STRUCTURE. 
+  // DO NOT DELETE THIS BELOW I AM WORKING ON CREATING THE ELEMENTS DYNAMICALLY AND NEED A STRUCTURE. 
+
+
+//   <div id='cardContainer'>
+//   <!-- //   <a href="https://dc.eater.com/maps/best-soul-food-retaurants-d-c">
+
+//       //   <div class="row">
+//       //       <div class="col">
+//       //           <div class="card">
+//       //               <img src="https://cdn.vox-cdn.com/thumbor/pnquLQV4xUPtltkqi1toJVRHz5k=/0x0:1500x1001/1270x953/filters:focal(630x381:870x621):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/68567135/Henry_s_Soul_Cafe_DC_pie.0.jpg"
+//       //                   class="card-img-top" alt="...">
+//       //           </div>
+//       //           <div class="col">
+//       //               <div class="card-body">
+//       //                   <p class="card-text"></p>
+//       //               </div>
+//       //           </div>
+//       //       </div>
+//       //   </div>
+//       // </a>
+//        -->
+// </div> 
+
+ // DO NOT DELETE THIS ABOVE I AM WORKING ON CREATING THE ELEMENTS DYNAMICALLY AND NEED A STRUCTURE. 
+  // DO NOT DELETE THIS ABOVE I AM WORKING ON CREATING THE ELEMENTS DYNAMICALLY AND NEED A STRUCTURE. 
+
+ }
+
+
+}
+
+
 //****************************************************************************************************************************************//
 
 //Get images of the locations via Google API 

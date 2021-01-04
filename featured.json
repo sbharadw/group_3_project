@@ -1,0 +1,487 @@
+{
+    "meta": {
+        "code": 200,
+        "requestId": "5ff2a5cb84b9f728be440b5b"
+    },
+    "response": {
+        "suggestedFilters": {
+            "header": "Tap to show:",
+            "filters": [
+                {
+                    "name": "$-$$$$",
+                    "key": "price"
+                },
+                {
+                    "name": "Open now",
+                    "key": "openNow"
+                }
+            ]
+        },
+        "geocode": {
+            "what": "",
+            "where": "washington dc",
+            "center": {
+                "lat": 38.89511,
+                "lng": -77.03637
+            },
+            "displayString": "Washington, D.C., United States",
+            "cc": "US",
+            "geometry": {
+                "bounds": {
+                    "ne": {
+                        "lat": 38.995548,
+                        "lng": -76.909393
+                    },
+                    "sw": {
+                        "lat": 38.791644999999995,
+                        "lng": -77.119759
+                    }
+                }
+            },
+            "slug": "washington-dc",
+            "longId": "72057594042068899"
+        },
+        "headerLocation": "Washington",
+        "headerFullLocation": "Washington",
+        "headerLocationGranularity": "city",
+        "query": "resturants",
+        "totalResults": 16,
+        "suggestedBounds": {
+            "ne": {
+                "lat": 38.9983485145568,
+                "lng": -77.01773626212164
+            },
+            "sw": {
+                "lat": 38.786919594544905,
+                "lng": -77.1477284954455
+            }
+        },
+        "groups": [
+            {
+                "type": "Recommended Places",
+                "name": "recommended",
+                "items": [
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "57538375cd10ed687fb9f352",
+                            "name": "Flavio",
+                            "location": {
+                                "address": "1073 31st St NW",
+                                "lat": 38.90464630804925,
+                                "lng": -77.0611070657207,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 38.90464630804925,
+                                        "lng": -77.0611070657207
+                                    },
+                                    {
+                                        "label": "entrance",
+                                        "lat": 38.904629,
+                                        "lng": -77.061091
+                                    }
+                                ],
+                                "postalCode": "20007",
+                                "cc": "US",
+                                "city": "Washington",
+                                "state": "D.C.",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "1073 31st St NW",
+                                    "Washington, D.C. 20007",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d110941735",
+                                    "name": "Italian Restaurant",
+                                    "pluralName": "Italian Restaurants",
+                                    "shortName": "Italian",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/italian_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "delivery": {
+                                "id": "2422996",
+                                "url": "https://www.grubhub.com/restaurant/flavio-restaurant--bar-1073-31st-st-nw-washington/2422996?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=2422996",
+                                "provider": {
+                                    "name": "grubhub",
+                                    "icon": {
+                                        "prefix": "https://fastly.4sqi.net/img/general/cap/",
+                                        "sizes": [
+                                            40,
+                                            50
+                                        ],
+                                        "name": "/delivery_provider_grubhub_20180129.png"
+                                    }
+                                }
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-57538375cd10ed687fb9f352-0"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "49e7935df964a520c7641fe3",
+                            "name": "Southside 815",
+                            "location": {
+                                "address": "815 S Washington St",
+                                "lat": 38.79653,
+                                "lng": -77.04897,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 38.79653,
+                                        "lng": -77.04897
+                                    },
+                                    {
+                                        "label": "entrance",
+                                        "lat": 38.796014,
+                                        "lng": -77.049229
+                                    }
+                                ],
+                                "postalCode": "22314",
+                                "cc": "US",
+                                "city": "Alexandria",
+                                "state": "VA",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "815 S Washington St",
+                                    "Alexandria, VA 22314",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d14f941735",
+                                    "name": "Southern / Soul Food Restaurant",
+                                    "pluralName": "Southern / Soul Food Restaurants",
+                                    "shortName": "Southern / Soul",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/southern_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "venuePage": {
+                                "id": "88530741"
+                            }
+                        },
+                        "referralId": "e-0-49e7935df964a520c7641fe3-1"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "52d1d347498e54a99edf656a",
+                            "name": "Taj of India",
+                            "location": {
+                                "address": "509 23rd St S",
+                                "lat": 38.853474,
+                                "lng": -77.05376,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 38.853474,
+                                        "lng": -77.05376
+                                    }
+                                ],
+                                "postalCode": "22202",
+                                "cc": "US",
+                                "city": "Arlington",
+                                "state": "VA",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "509 23rd St S",
+                                    "Arlington, VA 22202",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d10f941735",
+                                    "name": "Indian Restaurant",
+                                    "pluralName": "Indian Restaurants",
+                                    "shortName": "Indian",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/indian_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-52d1d347498e54a99edf656a-2"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "3fd66200f964a520d5f11ee3",
+                            "name": "Zaytinya",
+                            "location": {
+                                "address": "701 9th St NW",
+                                "crossStreet": "at G St. NW",
+                                "lat": 38.898811,
+                                "lng": -77.023645,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 38.898811,
+                                        "lng": -77.023645
+                                    },
+                                    {
+                                        "label": "entrance",
+                                        "lat": 38.899259,
+                                        "lng": -77.023805
+                                    }
+                                ],
+                                "postalCode": "20001",
+                                "cc": "US",
+                                "neighborhood": "Downtown-Penn Quarter-Chinatown",
+                                "city": "Washington",
+                                "state": "D.C.",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "701 9th St NW (at G St. NW)",
+                                    "Washington, D.C. 20001",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d1c0941735",
+                                    "name": "Mediterranean Restaurant",
+                                    "pluralName": "Mediterranean Restaurants",
+                                    "shortName": "Mediterranean",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/mediterranean_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "delivery": {
+                                "id": "2364858",
+                                "url": "https://www.grubhub.com/restaurant/zaytinya-701-9th-st-nw-washington/2364858?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=2364858",
+                                "provider": {
+                                    "name": "grubhub",
+                                    "icon": {
+                                        "prefix": "https://fastly.4sqi.net/img/general/cap/",
+                                        "sizes": [
+                                            40,
+                                            50
+                                        ],
+                                        "name": "/delivery_provider_grubhub_20180129.png"
+                                    }
+                                }
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "venuePage": {
+                                "id": "83870397"
+                            }
+                        },
+                        "referralId": "e-0-3fd66200f964a520d5f11ee3-3"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "422ceb00f964a520db1f1fe3",
+                            "name": "Caddie's on Cordell",
+                            "location": {
+                                "address": "4922 Cordell Ave",
+                                "crossStreet": "btwn Norfolk Ave & Old Georgetown Rd",
+                                "lat": 38.98873810910172,
+                                "lng": -77.09863389168942,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 38.98873810910172,
+                                        "lng": -77.09863389168942
+                                    },
+                                    {
+                                        "label": "entrance",
+                                        "lat": 38.988813,
+                                        "lng": -77.098531
+                                    }
+                                ],
+                                "postalCode": "20814",
+                                "cc": "US",
+                                "neighborhood": "Downtown Bethesda, Bethesda, Maryland",
+                                "city": "Bethesda",
+                                "state": "MD",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "4922 Cordell Ave (btwn Norfolk Ave & Old Georgetown Rd)",
+                                    "Bethesda, MD 20814",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d11d941735",
+                                    "name": "Sports Bar",
+                                    "pluralName": "Sports Bars",
+                                    "shortName": "Sports Bar",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/sportsbar_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "delivery": {
+                                "id": "385023",
+                                "url": "https://www.grubhub.com/restaurant/caddies-on-cordell-4922-cordell-ave-bethesda/385023?affiliate=1131&utm_source=foursquare-affiliate-network&utm_medium=affiliate&utm_campaign=1131&utm_content=385023",
+                                "provider": {
+                                    "name": "grubhub",
+                                    "icon": {
+                                        "prefix": "https://fastly.4sqi.net/img/general/cap/",
+                                        "sizes": [
+                                            40,
+                                            50
+                                        ],
+                                        "name": "/delivery_provider_grubhub_20180129.png"
+                                    }
+                                }
+                            },
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            },
+                            "venuePage": {
+                                "id": "33861108"
+                            }
+                        },
+                        "referralId": "e-0-422ceb00f964a520db1f1fe3-4"
+                    },
+                    {
+                        "reasons": {
+                            "count": 0,
+                            "items": [
+                                {
+                                    "summary": "This spot is popular",
+                                    "type": "general",
+                                    "reasonName": "globalInteractionReason"
+                                }
+                            ]
+                        },
+                        "venue": {
+                            "id": "4c01bf49f99620a1f51b2504",
+                            "name": "Knights of Columbus Pool",
+                            "location": {
+                                "address": "5115 Little Falls Rd",
+                                "lat": 38.906956685797404,
+                                "lng": -77.14181975756715,
+                                "labeledLatLngs": [
+                                    {
+                                        "label": "display",
+                                        "lat": 38.906956685797404,
+                                        "lng": -77.14181975756715
+                                    },
+                                    {
+                                        "label": "entrance",
+                                        "lat": 38.906609,
+                                        "lng": -77.141631
+                                    }
+                                ],
+                                "postalCode": "22207",
+                                "cc": "US",
+                                "city": "Arlington",
+                                "state": "VA",
+                                "country": "United States",
+                                "formattedAddress": [
+                                    "5115 Little Falls Rd",
+                                    "Arlington, VA 22207",
+                                    "United States"
+                                ]
+                            },
+                            "categories": [
+                                {
+                                    "id": "4bf58dd8d48988d15e941735",
+                                    "name": "Pool",
+                                    "pluralName": "Pools",
+                                    "shortName": "Pool",
+                                    "icon": {
+                                        "prefix": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/pool_",
+                                        "suffix": ".png"
+                                    },
+                                    "primary": true
+                                }
+                            ],
+                            "photos": {
+                                "count": 0,
+                                "groups": []
+                            }
+                        },
+                        "referralId": "e-0-4c01bf49f99620a1f51b2504-5"
+                    }
+                ]
+            }
+        ]
+    }
+}
