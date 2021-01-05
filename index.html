@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Grown</title>
-    <link rel="stylesheet" href="./Css/normalize.css">-->
+    <link rel="stylesheet" href="./Css/normalize.css">
     <link rel="stylesheet" href="./Css/skeleton.css">
     <link rel="stylesheet" href="./Css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shrikhand">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredericka the Great">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.25/dist/shoelace/shoelace.css">
+
     <script src="https://kit.fontawesome.com/0aa2753bb1.js" crossorigin="anonymous"></script>
     <link rel="icon" href="Images/hgicon.ico">
 
@@ -26,13 +28,14 @@
     <!--Create div inside for main image, will need id and image tag.-->
     <!--Create div and class called "header" for the nav bar below.-->
     <style>
-        body {
+      /**  body {
             background-image: url('Images/local_marquee.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: right top;
             background-attachment: fixed;
         }
+    **/
     </style>
 
     <!--Create div and class called "navbar" for the four tabs below.-->
@@ -53,7 +56,7 @@
                     <input class="u-full-width" type="text" placeholder='Enter City/Zipcode' id="user-area">
                 </div>
                 <div class="four columns">
-                    <input id="user-submit" class="six columns button-primary" type="submit" value="Submit">
+                    <sl-button id="user-submit" class="six columns button-primary" type="primary">Submit</sl-button>
                 </div>
             </form>
 
@@ -84,7 +87,8 @@
 
             <div class="five columns">
 
-                <div id="map" style="width: 750px; height: 700px;"></div>
+                <div id="map" style="width: 500px; height: 500px;"></div>
+
 
             </div>
 
@@ -92,10 +96,17 @@
         </div>
     </div>
 
+    <div class="alert-toast">
+        <sl-alert type="danger" duration="3000" closable>
+            <sl-icon slot="icon" name="exclamation-octagon"></sl-icon>
+            <strong>Both input fields are required!</strong>
+          </sl-alert>
+        </div>
 
+    </div>
 
-    <!-- Do not touch this DIV please!!-->
-
+    
+   <!-- <input id="user-submit" class="six columns button-primary" type="submit" value="Submit"> -->
 
 
 
@@ -110,9 +121,13 @@
         </script>
     <script
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcdEQ1k7qY05LUQ9BK5byzXlguE7S0d2U&libraries=&v=weekly"
-        defer></script>
+        defer></script> 
     <script src="script.js"></script>
+    <script 
+        type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.25/dist/shoelace/shoelace.esm.js"></script>
+    
 
 </body>
 
 </html>
+
