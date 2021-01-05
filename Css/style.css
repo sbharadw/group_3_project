@@ -2,7 +2,7 @@ h1 {
     font-family: 'Fredericka the Great';
     font-size: 8.5rem;
     color: rgb(243, 240, 237);
-    background-color: rgba(5, 136, 44, 0.8);
+    background-color: rgba(6, 112, 38, 0.9);
     text-align: center;
     width: 100%;
     margin-top: auto;
@@ -46,9 +46,9 @@ h3 {
 #aboutus,
 #reviews,
 .topnav a {
-    font-family: 'Alata';
+    font-family: 'Fredericka the Great';
     font-size: 1rem;
-    color: rgb(44, 29, 6);
+    color: rgb(243, 240, 237);
     float: left;
     font-size: 2.5rem;
     text-align: top;
@@ -58,7 +58,7 @@ h3 {
 
 /* Add a beige background color to the top navigation */
 .topnav {
-    background-color: rgba(246, 224, 196, 0.8);
+    background-color: (248, 244, 238, 0.9);
     overflow: hidden;
     margin: 0%;
     position: -webkit-sticky;
@@ -126,34 +126,36 @@ width: 50 rem;
     width: 900px;
     display: flex;
     align-items: center;
-    background-color:rgba(246, 224, 196, 0.9);
-  }
-
-  .card{
-    background-color:rgba(246, 224, 196, 0.9);
+    background-color:rgba(248, 244, 238, 0.9);
   }
   
   .card-title{
       font-family: 'Gilda Display';
       margin-bottom: 1%;
-      margin-top: 0%;
-      text-decoration: none;
+      background-color:rgba(246, 224, 196, 0.8);
   }
 
   h6, 
   .footer{
     font-family: 'Gilda Display';
     text-align: center;
-    color: rgb(27, 15, 7);
-    outline: 3px solid rgba(246, 224, 196, 0.9);
-    background-color: rgba(246, 224, 196, 0.9);
-    width: 100%;
-    padding: 0%;
+    color: rgb(243, 240, 237);
+    background-color:rgba(4, 87, 29, 0.9);
+    left: 40%;
     font-size: 2.5rem;
     font-weight: 250;
-    margin: 0%;
     position: absolute;
     bottom: 0;
+    width: 20%;
+    padding-top: 0.5%;
+}
+
+.footer{
+    height: 6%;
+}
+
+.card{
+    background-color: rgba(246, 224, 196, 0.8);
 }
 
 .card-text{
