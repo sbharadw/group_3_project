@@ -90,7 +90,6 @@ $("#user-submit").on("click", function (event) {
             var venueName = arr[index].venue.name;
             var venueCategory = arr[index].venue.categories[0].name;
             var venueAddress = arr[index].venue.location.formattedAddress[0] + ', ' + venueListArray[index].venue.location.formattedAddress[1] + ', ' + venueListArray[index].venue.location.formattedAddress[2];
-
             var imagePre = arr[index].venue.categories[0].icon.prefix;
             var imageSuff = arr[index].venue.categories[0].icon.suffix;
             var imageSize = "200x200";
@@ -169,10 +168,7 @@ const v = `&v=20190425`;
 const radius = `&radius=10000`;
 const limit = `&limit=6`;
 const offset = `&offset=0`;
-const queryOne = `&query=resturants`;
-const queryTwo = `&query=food`
 const near = `&near=Washington,Dc`;
-
 let url = `https://api.foursquare.com/v2/venues/explore/?${clientId}${clientSecret}${v}${radius}${limit}${offset}${queryOne}${queryTwo}${near}`;
 let response = await fetch(`${url}`);
 let data = await response.json(response);
