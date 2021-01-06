@@ -141,9 +141,9 @@ $.ajax(settings).done(function (places) {
     placesMaps(places);
 });
 });
-const apiFetch = async (photos) => {
-    const clientId = `&client_id=1HDXUDQB5L2UQQ1ZRT0KDV23AEEVVP4LI1WAP5DNBORPZ2QQ`
-    const clientSecret = `&client_secret=BOGF0MSBJTTROW4KC0CHB1G43JRKP4X0ZZ0MC0J1MUKHXZF0`;
+const apiFetch = async () => {
+    const clientId = `&client_id=3SWHQH2LO3XWS4UHXNJOUA52F5WPBLKBOVI5M2F33PXBHO4O`
+    const clientSecret = `&client_secret=I03NGIT2WZHSR2YOYJ2ETUXDG3TFNSCFAGF2BOFAVTULQDHK`;
     const v = `&v=20190425`;
     const radius = `&radius=10000`;
     const limit = `&limit=6`;
