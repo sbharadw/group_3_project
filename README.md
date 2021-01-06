@@ -1,12 +1,12 @@
 <h1>Group Name</h1>  - The Creatives 
 
-<h1>Website name</h1> - Home Grown 
+<h1>Website Name</h1> - Home Grown 
 
 <h1>Project Description</h1> - Website to find local businesses near user's area of interest to help mom and pop shops during the Covid-19 period. 
 
 <h1>APIs</h1> - FourSquare API (basic API for generic info. and premium API for photos, url, phone number), Google Maps API (using cluster markers)
 
-<h1>Acknowledgements:</h1>
+<h1>Acknowledgements:</h1> -
 
 1) Eater - Content supplied from their website for the blog page
 2) Normalize - Reset stylesheet
@@ -17,7 +17,7 @@
 7) Nathan Keeys - Card layout help
 8) Ask BCS - Help with questions/doubts
 
-<h1>Team Members and Responsibilities</h1>  - 
+<h1>Team Members and Responsibilities</h1> - 
 
 <ul>
 <li>Satyam - Javascript/Jquery/Ajax/FourSquare API/Google Maps API and Team Lead</li>
@@ -26,7 +26,7 @@
 <li>Yaze - Javascript/Jquery/Fetch/FourSquare API</li>
 </ul>
 
-<h1> Future releases </h1>
+<h1> Future Releases </h1> -
 
 <ul>
 <li>Provide user the ability to choose the number of results</li>
@@ -45,9 +45,15 @@ https://www.canva.com/design/DAEQcjbsJfw/xIYaauBCHPYT7aZ6gaNfXA/view?utm_content
 
 ![mockup image](Images/homepageimage.png)
 
-![mockup image](Images/featuredpageimage.png)
+![mockup image](Images/featurepageimage.png)
 
 ![mockup image](Images/blogpageimage.png)
 
 ![mockup image](Images/aboutuspageimage.png) 
+
+<h1>Repository and Application URLs</h1> - 
+
+<b>Repo URL:</b> https://github.com/sbharadw/HomeGrown
+
+<b>Application URL:</b> https://sbharadw.github.io/HomeGrown/
 
