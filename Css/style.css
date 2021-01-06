@@ -91,20 +91,20 @@ h3 {
 }
 
 .image-pro {
-	position: -webkit-sticky;
+    position: -webkit-sticky;
     position: sticky;
-	top:0;
-	width:100%;
-	height: 100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
 .search-bar {
     position: -webkit-sticky;
     position: sticky;
-    text-align:center;
-    width:50%;
-    margin:auto;
+    text-align: center;
+    width: 50%;
+    margin: auto;
     font-family: 'Alata';
     font-size: 1rem;
     color: rgb(44, 29, 6);
@@ -115,10 +115,10 @@ h3 {
 }
 
 .results-card-width {
-width: 50 rem;
+    width: 50 rem;
 }
 
-.col{
+.col {
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
@@ -126,21 +126,21 @@ width: 50 rem;
     width: 900px;
     display: flex;
     align-items: center;
-    background-color:rgba(248, 244, 238, 0.9);
-  }
-  
-  .card-title{
-      font-family: 'Gilda Display';
-      margin-bottom: 1%;
-      background-color:rgba(246, 224, 196, 0.8);
-  }
+    background-color: rgba(248, 244, 238, 0.9);
+}
 
-  h6, 
-  .footer{
+.card-title {
+    font-family: 'Gilda Display';
+    margin-bottom: 1%;
+    background-color: rgba(246, 224, 196, 0.8);
+}
+
+h6,
+.footer {
     font-family: 'Gilda Display';
     text-align: center;
     color: rgb(243, 240, 237);
-    background-color:rgba(4, 87, 29, 0.9);
+    background-color: rgba(4, 87, 29, 0.9);
     left: 40%;
     font-size: 2.5rem;
     font-weight: 250;
@@ -150,26 +150,26 @@ width: 50 rem;
     padding-top: 0.5%;
 }
 
-.footer{
+.footer {
     height: 6%;
 }
 
-.card{
+.card {
     width: 50%;
 }
 
-.card-text{
+.card-text {
     text-align: left;
     text-decoration: none;
 }
 
-.card-img-top{
+.card-img-top {
     display: block;
     height: 280 px;
-    width:400px;
+    width: 400px;
 }
 
-.card-body{
+.card-body {
     align-items: right;
     text-align: left;
     position: relative;
@@ -180,31 +180,17 @@ width: 50 rem;
 .sl-toast-stack {
     left: 0;
     right: auto;
-  }
+}
 
-  .container {
+.container {
 
-width: 80%;
-margin: auto;
+    width: 80%;
+    margin: auto;
 
-  }
+}
 
 .map {
 
-width: 100%;
-height: 800px;
+    width: 100%;
+    height: 900px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
