@@ -47,7 +47,6 @@ h3 {
 #reviews,
 .topnav a {
     font-family: 'Fredericka the Great';
-    font-size: 1rem;
     color: rgb(243, 240, 237);
     float: left;
     font-size: 2.5rem;
@@ -132,7 +131,6 @@ width: 50 rem;
   .card-title{
       font-family: 'Gilda Display';
       margin-bottom: 1%;
-      background-color:rgba(246, 224, 196, 0.8);
   }
 
   h6, 
