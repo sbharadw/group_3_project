@@ -141,6 +141,64 @@ $.ajax(settings).done(function (places) {
     placesMaps(places);
 });
 });
+const apiFetch = async (photos) => {
+    const clientId = `&client_id=1HDXUDQB5L2UQQ1ZRT0KDV23AEEVVP4LI1WAP5DNBORPZ2QQ`
+    const clientSecret = `&client_secret=BOGF0MSBJTTROW4KC0CHB1G43JRKP4X0ZZ0MC0J1MUKHXZF0`;
+    const v = `&v=20190425`;
+    const radius = `&radius=10000`;
+    const limit = `&limit=6`;
+    const offset = `&offset=0`;
+    const near = `&near=Washington,Dc`;
+    let url = `https://api.foursquare.com/v2/venues/explore/?${clientId}${clientSecret}${v}${radius}${limit}${offset}${near}`;
+    let response = await fetch(`${url}`);
+    let data = await response.json(response);
+    await renderData(data);
+}
+apiFetch()
+// button.onclick = apiFetch;
+async function renderData(data) {
+    for (let i = 0; i < 5; i++) {
+        var card = `
+                    <div id='cardContainer'>
+                <div class="row">
+                    <div class="col">
+                       <div class="card">
+                       <h2>${data.response.groups[0].items[i].venue.name}</h2>
+                                     <img src="./images/stores.jpg"
+                                        class="card-img-top" alt="..."/>
+                               </div>
+                           <div class="col">
+                               <div class="card-body">
+                                 <p class="card-text">
+                                      <strong>Address:</strong><br>
+                                        ${data.response.groups[0].items[i].venue.location.formattedAddress}, <br>
+                                              </p>
+                            </div>
+                          </div>
+                      </div>
+                  </div>   
+               </div> 
+`
+        document.querySelector('#body').innerHTML += card
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //****************************************************************************************************************************************//
 //Function to display local business on a map via google API 
 function placesMaps(places) {
