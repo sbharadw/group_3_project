@@ -27,6 +27,6 @@ Acknowledgements:
 <li>Satyam - JS/Jquery/Ajax/API and Team Lead</li>
 <li>Kokhob - HTML/CSS/Design</li>
 <li>Terry - HTML/CSS/Design</li>
-<li>Yaze - JS/Jquery/Ajax/API</li>
+<li>Yaze - JS/Jquery/Fetch/API</li>
 </ul>
 
