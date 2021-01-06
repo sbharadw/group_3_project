@@ -29,7 +29,7 @@ function buildQueryURL() {
         "client_secret": "BOGF0MSBJTTROW4KC0CHB1G43JRKP4X0ZZ0MC0J1MUKHXZF0",
         "intent": "browse",
         "radius": "10000",
-        "limit": "5",
+        "limit": "10",
         "offset": "0",
         "v": "20190425"
     };

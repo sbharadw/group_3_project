@@ -1,4 +1,3 @@
-index.html 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,18 +26,11 @@ index.html
 
         body {
             background-image: url('https://image.shutterstock.com/z/stock-photo-happy-senior-female-spice-merchant-standing-at-counter-while-looking-away-in-store-123790684.jpg');
-
-      /**  body {
-            background-image: url('Images/local_marquee.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: right top;
             background-attachment: fixed;
         }
-      /**  body {
-             background-image: url('Images/local_marquee.jpg');
-        }
-    **/
     </style>
     <!--Create div and class called "navbar" for the four tabs below.-->
     <!--Inside the navbar, create unordered list for the Hot Spots, Blog, About Us and Contact Us tabs-->
@@ -69,24 +61,27 @@ index.html
         <br>
     </header>
     <!--Search Results along with google maps UI-->
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="seven columns">
-                <div class="jumbotron jumbotron-fluid p-3 mb-2 bg-secondary text-white">
+            <div class="six columns">
+        
                     <div>
-                        <div id="section" class="row mx-auto scroll">
+                        <div class="row mx-auto scroll">
+                        <div id="section" style="display: flex; flex-wrap: wrap; background-color: rgba(246, 224, 196, 0.8);"></div>
                         </div>
                     </div>
-                </div>
+                
             </div>
-            <div class="five columns">
-                <div id="map" style="width: 500px; height: 500px;"></div>
+            <div class="six columns">
+                <div id="map" class="map"></div>
             </div>
         </div>
-    </div>
+        </div>
+
    <!--  -->
    <div class="alert-toast-wrapper">
   </div>
+
     <!--Link Javascript file JQuery Library-->
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>

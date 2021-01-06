@@ -155,7 +155,7 @@ width: 50 rem;
 }
 
 .card{
-    background-color: rgba(246, 224, 196, 0.8);
+    width: 50%;
 }
 
 .card-text{
@@ -175,6 +175,24 @@ width: 50 rem;
     position: relative;
     padding: 3%;
     text-decoration: none;
+}
+
+.sl-toast-stack {
+    left: 0;
+    right: auto;
+  }
+
+  .container {
+
+width: 80%;
+margin: auto;
+
+  }
+
+.map {
+
+width: 100%;
+height: 800px;
 }
 
 
