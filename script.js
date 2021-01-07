@@ -169,7 +169,7 @@ async function renderData(data) {
                     <div class="col">
                        <div class="card">
                        <h2>${data.response.groups[0].items[i].venue.name}</h2>
-                                     <img src="./images/stores.jpg"
+                                     <img src="Images/stores.jpg"
                                         class="card-img-top" alt="..."/>
                                </div>
                            <div class="col">
