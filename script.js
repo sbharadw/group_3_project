@@ -29,7 +29,7 @@ function buildQueryURL() {
         "client_secret": "BOGF0MSBJTTROW4KC0CHB1G43JRKP4X0ZZ0MC0J1MUKHXZF0",
         "intent": "browse",
         "radius": "10000",
-        "limit": "2",
+        "limit": "10",
         "offset": "0",
         "v": "20190425"
     };
@@ -169,7 +169,7 @@ async function renderData(data) {
                     <div class="col">
                        <div class="card">
                        <h2>${data.response.groups[0].items[i].venue.name}</h2>
-                                     <img src="./images/stores.jpg"
+                                     <img src="Images/stores.jpg"
                                         class="card-img-top" alt="..."/>
                                </div>
                            <div class="col">
